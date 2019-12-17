@@ -15,7 +15,7 @@
     "test:watch": "npm run test -- --watch",
     "build": "webpack --display-error-details",
     "build:demo": "cd demo && webpack",
-    "deploy:demo": "node scripts/deploy:demo.js",
+    "deploy:demo": "node scripts/deploy-demo.js",
     "clean": "rm -rf node_modules && rm -rf dist && rm -rf demo/node_modules && rm -rf demo/dist",
     "lint": "eslint ./",
     "lint:fix": "npm run lint -- --fix",
